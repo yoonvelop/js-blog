@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-backend/src/api/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/posts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/modules/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/models/post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -68,6 +67,7 @@
       <workItem from="1584690111952" duration="4685000" />
       <workItem from="1584927906060" duration="2359000" />
       <workItem from="1585008020467" duration="17752000" />
+      <workItem from="1585054705027" duration="1101000" />
     </task>
     <servers />
   </component>
