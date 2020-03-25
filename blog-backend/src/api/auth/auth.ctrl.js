@@ -17,7 +17,7 @@ export const register = async ctx =>{
             .max(20)
             .required(),
         password : Joi.string().required(),
-    })
+    });
     const result = Joi.validate(ctx.request.body, schema);
     if(result.error){
         ctx.body = result.error;
@@ -41,6 +41,13 @@ export const register = async ctx =>{
 
         // 응답할 데이터에서 hashedPassword 필드 제거
         ctx.body = user.serialize();
+
+        // jwt 발행
+        const token = user.generateToken();
+        ctx.cookies.set('access_token', token,{
+            maxAge : 1000 *60 *60 *24 *7, // 7일
+            httpOnly : true,
+        });
     }catch (e) {
         ctx.throw(500,e);
     }
@@ -77,15 +84,37 @@ export const login = async ctx =>{
             return;
         }
         ctx.body = user.serialize();
+
+        // jwt 발행
+        const token = user.generateToken();
+        ctx.cookies.set('access_token', token,{
+            maxAge : 1000 *60 *60 *24 *7, // 7일
+            httpOnly : true,
+        });
     }catch (e) {
         ctx.throw(500,e);
     }
-}
-// 로그인 상태 확인
+};
+
+/*
+*  로그인 상태 확인
+*  GET /api/auth/check
+* */
 export const check = async ctx =>{
+    const { user } = ctx.state;
+    if(!user){
+        // 로그인 중 아님
+        ctx.state = 401; // Unauthorized
+        return;
+    }
+    ctx.body = user;
+};
 
-}
-// 로그아웃
+/*
+*  로그아웃
+*  POST /api/auth/logout
+* */
 export const logout = async ctx =>{
-
-}
+    ctx.cookies.set('access_token');
+    ctx.status = 204; // No Content
+};

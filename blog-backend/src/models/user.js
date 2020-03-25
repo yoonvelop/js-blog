@@ -1,5 +1,6 @@
 import mongoose, {Schema} from 'mongoose';
 import bcrypt from 'bcrypt'; // 해시 관련 라이브러리
+import jwt from 'jsonwebtoken'; // jwt 라이브러리
 
 const UserSchema = new Schema({
     username: String,
@@ -18,17 +19,32 @@ UserSchema.methods.checkPassword = async function (password) {
     return result; // true / false
 }
 
-// [인스턴스 메서드] hashedPassword 필드 지우고 리턴
-UserSchema.methods.serialize = function (password) {
-    const data =  this.toJSON();
-    delete data.hashedPassword;
-    return data;
-}
-
 // [스태틱 메서드] username으로 데이터 조회
 UserSchema.statics.findByUsername = function (username) {
     return this.findOne({username});
 }
+
+// [인스턴스 메서드] hashedPassword 필드 지우고 리턴
+UserSchema.methods.serialize = function (password) {
+    const data = this.toJSON();
+    delete data.hashedPassword;
+    return data;
+}
+
+// [인스턴스 메서드] 토큰 생성
+UserSchema.methods.generateToken = function () {
+    const token = jwt.sign(
+        // 첫번째 파라미터에는 토큰 안에 집어넣고 싶은 데이터를 넣습니다.
+        {
+            _id: this.id,
+            username: this.username,
+        },
+        process.env.JWT_SECRET,// 두번째 파라미터에는 JWT 암호를 넣습니다.
+        {expiresIn: '7d'}, // 7일 동안 유효함
+    );
+    return token;
+};
+
 
 const User = mongoose.model('User', UserSchema);
 export default User;
