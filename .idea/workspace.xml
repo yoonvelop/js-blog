@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa38e170-9c97-43b4-bd1d-3feea153224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/lib/jstMiddleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-backend/src/lib/checkLoggedIn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/auth/auth.ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/auth/auth.ctrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/posts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/lib/jstMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/lib/jstMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/models/post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

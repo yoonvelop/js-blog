@@ -5,14 +5,36 @@ import Joi from 'joi';
 /*미들웨어 생성*/
 const {ObjectId} = mongoose.Types;
 
-export const checkObjectId = (ctx, next)=>{
+export const getPostById = async (ctx, next)=>{
     const {id} = ctx.params;
     if(!ObjectId.isValid(id)){
-        ctx.status = 400 // Bad Request
+        ctx.status = 400; // Bad Request
+        return;
+    }
+    try{
+        const post = await Post.findById(id);
+        // 포스트가 존재하지 않을 때
+        if(!post){
+            ctx.status = 404; // Not Found
+            return ;
+        }
+        ctx.state.post = post;
+        return next();
+    }catch (e) {
+        ctx.throw(500,e);
+    }
+
+};
+
+// 포스트가 사용자가 작성한 포스트 인지 확인
+export const checkOwnPost = (ctx, next) =>{
+    const { user, post } = ctx.state;
+    if(post.user._id.toString() !== user._id){
+        ctx.status = 403;
         return;
     }
     return next();
-}
+};
 
 /*
 * POST /api/posts
@@ -46,6 +68,7 @@ export const write = async ctx => {
         title,
         body,
         tags,
+        user : ctx.state.user,
     });
     try {
         await post.save();
@@ -56,7 +79,7 @@ export const write = async ctx => {
 };
 
 /*
-*  GET /api/posts
+*  GET /api/posts?username=&tag=&page=
 * */
 export const list = async ctx => {
     // query는 문자열이기 때문에 숫자로 변환 해주어야함
@@ -68,14 +91,21 @@ export const list = async ctx => {
         return;
     }
 
+    const {tag, username} = ctx.query;
+    // tag, username 값이 유효하면 객체 안에 넣고, 그렇지 않으면 넣지않음
+    const query = {
+        ...(username? {'user.username':username}:{}),
+        ...(tag? {tags:tag}:{}),
+    };
+
     try{
-        const posts =await Post.find()
+        const posts =await Post.find(query)
             .sort({_id:-1}) // 역순
             .limit(10)      // 개수제한
             .skip((page - 1)*10)      // 페이지 스킵
             .lean() // lean함수를 사용해 조회 -> json형태로 조회 함
             .exec();
-        const postCount = await Post.countDocuments().exec(); // 총 갯수
+        const postCount = await Post.countDocuments(query).exec(); // 총 갯수
         ctx.set('Last-Page', Math.ceil(postCount / 10)); // Last-Page라는 커스텀 HTTP 헤더를 설정
         ctx.body = posts.map(post => ({
                 ...post,
@@ -91,17 +121,7 @@ export const list = async ctx => {
 *  GET /api/posts/:id
 * */
 export const read = async ctx => {
-    const {id} = ctx.params;
-    try{
-        const post = await Post.findById(id).exec();
-        if(!post){
-            ctx.status = 404; // Not Found
-            return ;
-        }
-        ctx.body = post;
-    }catch (e) {
-        ctx.throw(500,e)
-    }
+    ctx.body = ctx.state.post;
 };
 
 /*
