@@ -2,12 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa38e170-9c97-43b4-bd1d-3feea153224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-backend/src/lib/checkLoggedIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/styles/palette.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/posts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/lib/jstMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/lib/jstMiddleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/models/post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +59,16 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1ZNkXeWEvrPnJ5i8l5zoGoYA6iF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
@@ -76,6 +103,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="687" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585016449250">
