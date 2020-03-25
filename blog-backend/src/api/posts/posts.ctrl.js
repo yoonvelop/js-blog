@@ -59,9 +59,29 @@ export const write = async ctx => {
 *  GET /api/posts
 * */
 export const list = async ctx => {
+    // query는 문자열이기 때문에 숫자로 변환 해주어야함
+    // 값이 주어지지 않았다면 1을 기본값으로 사용
+    const page = parseInt(ctx.query.page || '1',10);
+
+    if(page<1){
+        ctx.status = 400;
+        return;
+    }
+
     try{
-        const posts =await Post.find().exec();
-        ctx.body = posts;
+        const posts =await Post.find()
+            .sort({_id:-1}) // 역순
+            .limit(10)      // 개수제한
+            .skip((page - 1)*10)      // 페이지 스킵
+            .lean() // lean함수를 사용해 조회 -> json형태로 조회 함
+            .exec();
+        const postCount = await Post.countDocuments().exec(); // 총 갯수
+        ctx.set('Last-Page', Math.ceil(postCount / 10)); // Last-Page라는 커스텀 HTTP 헤더를 설정
+        ctx.body = posts.map(post => ({
+                ...post,
+                body :
+                    post.body.length <200? post.body : `${post.body.slice(0,200)}...`,
+            }));
     }catch (e) {
         ctx.throw(500,e)
     }
