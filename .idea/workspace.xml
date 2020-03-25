@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa38e170-9c97-43b4-bd1d-3feea153224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/styles/palette.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthTemplate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="react function styled" />
       </list>
     </option>
   </component>
@@ -112,6 +90,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="687" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1585016449250" />
+    <state x="618" y="233" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1585124416945">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="618" y="233" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1585124416945" />
     <state x="338" y="98" key="SettingsEditor" timestamp="1584690083229">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
