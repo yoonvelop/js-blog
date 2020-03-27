@@ -8,6 +8,12 @@ import Button from "../common/Button";
 *  회원가입 또는 로그인 폼
 * */
 
+/* 폼의 타입을 정의 */
+const textMap = {
+    login : '로그인',
+    register : '회원가입',
+};
+
 const AuthFormBlock = styled.div`
     h3 {
         margin : 0;
@@ -32,6 +38,10 @@ const StyledInput = styled.input`
     }
 `;
 
+const ButtonWidthMarginTop= styled(Button)`
+    margin-top : 1rem;
+`;
+
 const Footer = styled.div`
     margin-top : 2rem;
     text-align :right;
@@ -45,10 +55,11 @@ const Footer = styled.div`
 `;
 
 
-const AuthForm = () => {
+const AuthForm = ({type}) => {
+    const text = textMap[type];
     return (
         <AuthFormBlock>
-            <h3>로그인</h3>
+            <h3>{text}</h3>
             <form>
                 <StyledInput autoComplete="username" name="username" placeholder="아이디"/>
                 <StyledInput
@@ -57,10 +68,21 @@ const AuthForm = () => {
                     placeholder="비밀번호"
                     type = "password"
                 />
-                <Button>로그인</Button>
+                {type === 'register' &&(
+                    <StyledInput
+                        autoComplete="new-password"
+                        name = "passwordConfirm"
+                        placeholder="비밀번호 확인"
+                        type = "password"
+                    />
+                )}
+                <ButtonWidthMarginTop cyan fullWidth>{text}</ButtonWidthMarginTop>
             </form>
             <Footer>
-                <Link to="/register">회원가입</Link>
+                {type === 'login'?
+                    (<Link to="/login">로그인</Link>)
+                    :(<Link to="/register">회원가입</Link>
+                )}
             </Footer>
         </AuthFormBlock>
     );

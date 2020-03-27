@@ -31,7 +31,7 @@ const StyledButton = styled.button`
         css`
           background : ${palette.cyan[5]};
           &:hover {
-            ${palette.cyan[4]};
+            background : ${palette.cyan[4]};
           }
         `}
         

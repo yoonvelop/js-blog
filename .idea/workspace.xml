@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa38e170-9c97-43b4-bd1d-3feea153224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthTemplate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" afterDir="false" />
