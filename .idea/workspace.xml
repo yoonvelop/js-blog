@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa38e170-9c97-43b4-bd1d-3feea153224b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Responsive.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/auth/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/auth/RegisterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/RegisterForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <workItem from="1584927906060" duration="2359000" />
       <workItem from="1585008020467" duration="17752000" />
       <workItem from="1585054705027" duration="1994000" />
-      <workItem from="1585295169355" duration="3102000" />
+      <workItem from="1585295169355" duration="4848000" />
     </task>
     <servers />
   </component>
