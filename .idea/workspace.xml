@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa38e170-9c97-43b4-bd1d-3feea153224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/RegisterForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/createRequestSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/loading.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/auth/AuthForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-frontend/src/modules/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/modules/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/RegisterPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +98,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="618" y="233" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1585124416945" />
+    <state x="157" y="216" key="NewPhpClassDialog" timestamp="1585292290053">
+      <screen x="0" y="0" width="1422" height="800" />
+    </state>
+    <state x="157" y="216" key="NewPhpClassDialog/0.0.1422.800@0.0.1422.800" timestamp="1585292290053" />
     <state x="338" y="98" key="SettingsEditor" timestamp="1584690083229">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
