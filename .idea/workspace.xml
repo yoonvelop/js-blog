@@ -2,22 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa38e170-9c97-43b4-bd1d-3feea153224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/AskModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/post/AskRemoveModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/post/PostActionButtons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/post/PostViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/post/PostViewer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/write/Editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/write/Editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/write/WriteActionButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/write/WriteActionButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/containers/post/PostViewerContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/containers/post/PostViewerContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/containers/write/WriteActionButtonsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/containers/write/WriteActionButtonsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/lib/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/modules/write.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/modules/write.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/debug/src/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/debug/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/debug/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/dist/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/src/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nodemon/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,5 +138,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="580" y="214" width="757" height="650" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1585551325235" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1585551767642">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1585551767642" />
   </component>
 </project>
