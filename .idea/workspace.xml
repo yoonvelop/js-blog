@@ -2,17 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa38e170-9c97-43b4-bd1d-3feea153224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/write/TagBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/write/WriteActionButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/write/EditorContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/write/TagBoxContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/write/WriteActionButtonsContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/SubInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Tags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/post/PostViewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/posts/Pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/components/posts/PostList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/post/PostViewerContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/posts/PaginationContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/containers/posts/PostListContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-frontend/src/modules/posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/write/Editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/write/Editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/ansi-regex/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/ansi-regex/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/ansi-regex/license" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/ansi-regex/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/ansi-regex/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/ansi-regex/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/flat-cache/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/flat-cache/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/lib/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/lib/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/nopt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/rimraf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/rimraf/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/rimraf/rimraf.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/rimraf/rimraf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/safe-buffer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/safe-buffer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/strip-ansi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/strip-ansi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/strip-ansi/license" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/strip-ansi/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/strip-ansi/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/strip-ansi/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/touch/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/touch/node_modules/.bin/nopt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/yallist/iterator.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/yallist/iterator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/yallist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/yallist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/node_modules/yallist/yallist.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/node_modules/yallist/yallist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/api/posts/posts.ctrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/src/models/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/components/common/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/lib/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/lib/api/posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/modules/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/WritePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/src/pages/PostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/src/pages/PostPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog-frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,5 +150,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="338" y="98" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1584690083229" />
+    <state x="580" y="214" width="757" height="650" key="find.popup" timestamp="1585544584040">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="580" y="214" width="757" height="650" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1585544584040" />
   </component>
 </project>
